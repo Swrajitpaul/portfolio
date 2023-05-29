@@ -3,32 +3,28 @@ body {
   background-color: lightgray;
 }
 
-%common-font {
-  font: italic bold 50px Georgia, serif;
-  background-color: lightgray;
-  color: salmon;
-  position: fixed;
-}
-
 h1 {
-  @extend %common-font;
-  font-size: 80px;
+  background-color: lightgray;
+  font: italic bold 80px Georgia, serif;
+  position: fixed;
   left: 26%;
   bottom: 43.5%;
-  color: inherit;
-}
-
-h2,
-h3 {
-  @extend %common-font;
 }
 
 h2 {
+  background-color: lightgray;
+  color: salmon;
+  font: italic bold 50px Georgia, serif;
+  position: fixed;
   left: 34%;
   bottom: 58%;
 }
 
 h3 {
+  background-color: lightgray;
+  color: salmon;
+  font: italic bold 50px Georgia, serif;
+  position: fixed;
   left: 39%;
   bottom: 35.5%;
 }
@@ -64,10 +60,10 @@ nav {
   font-style: italic;
   cursor: pointer;
   display: inline-block;
+}
 
-  &:hover {
-    color: salmon;
-  }
+.btn:hover {
+  color: salmon;
 }
 
 .homepage {

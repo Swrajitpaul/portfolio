@@ -221,6 +221,5 @@
 </script>
 
 <style scoped>
-@import "../temporary/aboutme.css"
 </style>
 
